@@ -1,0 +1,6 @@
+com\cherry\pvptournament\PvPTournament.class
+com\cherry\pvptournament\TournamentManager.class
+com\cherry\pvptournament\PvpCommand.class
+com\cherry\pvptournament\TournamentManager$Match.class
+com\cherry\pvptournament\TournamentManager$1.class
+com\cherry\pvptournament\PlayerListener.class

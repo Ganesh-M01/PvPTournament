@@ -1,0 +1,23 @@
+name: PvPTournament
+main: com.cherry.pvptournament.PvPTournament
+version: 1.0.0
+api-version: '1.21'
+authors: [ Cherry ]
+commands:
+  pvp:
+    description: PvP tournament controls
+    usage: /pvp <create|join|leave|start|setspawn|setlobby|leaderboard|kits>
+    aliases: [ pvpt, tournament ]
+permissions:
+  pvptournament.start:
+    default: op
+    description: Start a PvP tournament
+  pvptournament.create:
+    default: op
+    description: Create a PvP tournament
+  pvptournament.setspawn:
+    default: op
+    description: Set arena spawn locations (red|blue)
+  pvptournament.setlobby:
+    default: op
+    description: Set the lobby spawn location

@@ -1,0 +1,46 @@
+# PvP Tournament Config
+
+# initial selected kit (example)
+selected-kit: mace
+
+# Default spawn positions (admins can /pvp setspawn red|blue in-game to update)
+red-spawn:
+  world: world
+  x: 0.5
+  y: 65.0
+  z: 0.5
+  yaw: 0.0
+  pitch: 0.0
+
+blue-spawn:
+  world: world
+  x: 10.5
+  y: 65.0
+  z: 0.5
+  yaw: 180.0
+  pitch: 0.0
+
+kits:
+  mace:
+    armor:
+      helmet: NETHERITE_HELMET
+      chestplate: NETHERITE_CHESTPLATE
+      leggings: NETHERITE_LEGGINGS
+      boots: NETHERITE_BOOTS
+    contents:
+      - MACE:1
+      - COOKED_BEEF:32
+      - WIND_CHARGE:32
+    enchants:
+      helmet:
+        PROTECTION: 2
+      chestplate:
+        PROTECTION: 2
+      leggings:
+        PROTECTION: 2
+      boots:
+        PROTECTION: 2
+        FEATHER_FALLING: 4
+      sword: { }
+      mace:
+        WIND_BURST: 3
